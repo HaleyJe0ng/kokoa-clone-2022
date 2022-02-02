@@ -1,0 +1,32 @@
+@import "reset.css"; /*css를 이용해 추가하는게 좋다*/
+@import "status-bar.css";
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.welcome-header {
+  display: flex;
+  margin: 90px 0;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header .welcome-header__title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.welcome-header .welcome-header__text {
+  font-size: 15px;
+  color: #666;
+  width: 50%;
+}
+
+#login-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

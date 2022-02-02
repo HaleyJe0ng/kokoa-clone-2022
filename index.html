@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kokoa Talk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div id="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span id="status-bar__column__clock">00:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header__text">
+        If you have a Kokoa Account, login with your email or phone number.
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" name="email" placeholder="Email or phone number" />
+      <input type="password" name="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <button>Sign Up</button>
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
+
+    <script src="assets/js/clock.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b0c4a5afc2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
