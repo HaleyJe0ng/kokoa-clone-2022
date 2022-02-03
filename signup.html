@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Kokoa Talk</title>
+    <title>Sign Up</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +13,6 @@
     />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-
   <body>
     <div id="status-bar">
       <div class="status-bar__column">
@@ -30,53 +29,39 @@
       </div>
     </div>
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-      <p class="welcome-header__text">
-        If you have a Kokoa Account, login with your email or phone number.
-      </p>
+      <h1 class="welcome-header__title">Sign Up</h1>
     </header>
 
-    <form action="friends.html" method="GET" id="login-form">
+    <form action="friends.html" method="GET" id="signup-form">
       <input
+        class="signup-form__input"
         required
         name="username"
-        class="login-form__input"
         type="text"
         placeholder="Email or phone number"
       />
       <input
+        class="signup-form__input"
+        required
+        name="username_check"
+        type="text"
+        placeholder="Type the Email or phone number again"
+      />
+      <input
+        class="signup-form__input"
         required
         name="password"
-        class="login-form__input"
         type="password"
         placeholder="Password"
       />
-      <input class="login-form__btn btn__login" type="submit" value="Log In" />
-      <button
-        type="button"
-        class="login-form__btn btn__signup"
-        onclick="window.location.replace('signup.html');"
-      >
-        Sign Up
-      </button>
-      <a id="find-id-modal-open" class="login-form__a" href="#"
-        >Find Kokoa Account or Password</a
-      >
+      <input class="signup-form__btn" type="submit" value="Sign Up" />
     </form>
-    <div class="find-id-modal hidden">
-      <div class="find-id-modal__overlay"></div>
-      <div class="find-id-modal__content">
-        <h1>Hi, this is modal</h1>
-        <button class="find-id-modal__btn">Close</button>
-      </div>
-    </div>
 
     <script>
       window.onload = function () {
-        document.getElementById("login-form").reset();
+        document.getElementById("signup-form").reset();
       };
     </script>
-    <script src="assets/js/modal.js"></script>
     <script src="assets/js/clock.js"></script>
     <script
       src="https://kit.fontawesome.com/b0c4a5afc2.js"
