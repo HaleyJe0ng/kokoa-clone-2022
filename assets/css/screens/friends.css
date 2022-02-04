@@ -1,0 +1,31 @@
+#friends-display-link {
+  background-color: #fafafa;
+  display: block;
+  padding: 12px 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#friends-display-link svg {
+  color: #d5d5d5;
+  padding: 0 5px;
+}
+
+.user-component {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 15px;
+}
+
+.user-component__img {
+  border-radius: 30px;
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__name {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}

@@ -3,10 +3,14 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/find-id-modal.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/signup.css";
+@import "screens/friends.css";
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  color: var(--textbase);
 }
