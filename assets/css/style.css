@@ -5,6 +5,7 @@
 @import "components/find-id-modal.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/signup.css";
@@ -13,4 +14,11 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   color: var(--textbase);
+}
+
+.main-screen {
+  position: absolute;
+  z-index: 1;
+  padding: 0 var(--horizontal-space);
+  top: 120px;
 }

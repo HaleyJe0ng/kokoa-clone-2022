@@ -6,6 +6,7 @@
   padding: 20px 15px;
   box-sizing: border-box;
   width: 100%;
+  z-index: 2;
 }
 
 .nav__list {
