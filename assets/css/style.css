@@ -6,6 +6,8 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
+
 /* Screens */
 @import "screens/login.css";
 @import "screens/signup.css";
@@ -14,9 +16,12 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   color: var(--textbase);
+  position: relative;
 }
 
 .main-screen {
+  box-sizing: border-box;
+  width: 100%;
   position: absolute;
   z-index: 1;
   padding: 0 var(--horizontal-space);
