@@ -21,16 +21,6 @@
 }
 
 .nav__notification {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20px;
-  height: 20px;
-  font-size: 7px;
-  font-weight: 600;
-  color: #fff;
-  background-color: var(--notification-text);
-  border-radius: 10px;
   position: absolute;
   left: 18px;
   top: -18px;
@@ -42,7 +32,6 @@
   height: 6px;
   background-color: var(--notification-text);
   border-radius: 3px;
-
   right: -5px;
   top: -12px;
 }
