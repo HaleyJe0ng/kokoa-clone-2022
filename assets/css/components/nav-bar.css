@@ -28,10 +28,6 @@
 
 .nav__notification-dot {
   position: absolute;
-  width: 6px;
-  height: 6px;
-  background-color: var(--notification-text);
-  border-radius: 3px;
   right: -5px;
   top: -12px;
 }

@@ -2,6 +2,8 @@
   --yellow: #fae100;
   --yellow__hover: rgba(255, 232, 21, 0.5);
   --textbase: #2f363e;
+  --gray: rgba(0, 0, 0, 0.5);
   --notification-text: #ee5e30;
   --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
 }
