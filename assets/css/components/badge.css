@@ -10,3 +10,14 @@
   background-color: var(--notification-text);
   border-radius: 10px;
 }
+
+.badge.white {
+  color: var(--notification-text);
+  background-color: #fff;
+  border: 2px solid var(--notification-text);
+  border-radius: 20px;
+  width: 12px;
+  height: 12px;
+  font-size: 10px;
+  margin-left: 5px;
+}
