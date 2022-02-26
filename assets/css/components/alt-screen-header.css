@@ -1,0 +1,25 @@
+.alt-header {
+  position: fixed;
+  box-sizing: border-box;
+  top: 35px;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--horizontal-space);
+  z-index: 2;
+}
+
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+
+.alt-header__column:last-child {
+  margin-left: auto;
+}
+
+.alt-header__title {
+  font-size: 28px;
+  font-weight: 600;
+}
