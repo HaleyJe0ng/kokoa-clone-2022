@@ -23,9 +23,16 @@
 }
 .screen-header__link {
   color: var(--textbase);
+  position: relative;
 }
 /*
 .screen-header__icons span {
   margin-left: 25px;
 }
 */
+
+.screen-header__notification-dot {
+  position: absolute;
+  right: -7px;
+  top: -5px;
+}
