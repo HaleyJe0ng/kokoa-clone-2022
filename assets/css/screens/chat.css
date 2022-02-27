@@ -165,6 +165,7 @@
   align-items: center;
   padding: 5px 25px;
   box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
 }
 
 .reply .reply__column:first-child {
@@ -180,6 +181,7 @@
   border: var(--main-border);
   border-radius: 20px;
   padding: 10px;
+  transition: all 0.3s ease-in-out;
 }
 
 .reply input:focus,
@@ -217,4 +219,19 @@
 
 .reply .reply__column button svg {
   color: rgba(0, 0, 0, 0.9);
+}
+
+.reply:focus-within svg,
+.reply:focus-within button {
+  /*내부에 어떤 element가 focus 되어있다면 실행*/
+  opacity: 0;
+}
+
+.reply:focus-within input {
+  width: 110%;
+  transform: translateX(-12%);
+}
+
+.reply:focus-within {
+  background: none;
 }
