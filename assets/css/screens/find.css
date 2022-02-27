@@ -111,3 +111,24 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
+
+@keyframes heartBeatAnimation {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: #fff;
+    transform: none;
+  }
+}
+
+.open-post__heart-count svg:hover {
+  /*브라우저에게 어떤게 변할것인지 알려주는 것. 그래픽카드를 이용해 애니메이션을 가속화한다.*/
+  will-change: transform;
+  margin-left: 3px;
+  animation: heartBeatAnimation 1s ease-in-out infinite;
+}
