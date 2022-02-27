@@ -31,6 +31,19 @@
 }
 */
 
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__btn .fa-gear:hover {
+  animation: rotateCog 1s linear infinite;
+}
+
 .screen-header__notification-dot {
   position: absolute;
   right: -7px;
